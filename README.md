@@ -2,7 +2,7 @@
 
 Welcome to my Firebase Firestore CRUD application repository. This project is part of my journey to learn and apply CRUD (Create, Read, Update, Delete) operations using Firebase Firestore in a Node.js application. The backend is built with Express.js, and the project demonstrates how to structure a Node.js application with modular routes and functions.
 
-![Firestore Architecture](assets/firestore-architecture.png)
+![Firestore Architecture](/firestoreimage.jpg)
 
 ## Table of Contents
 

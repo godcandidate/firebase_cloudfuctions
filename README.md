@@ -1,4 +1,4 @@
-# Firebase Firestore CRUD Application
+# Firebase Cloud functions
 
 Welcome to my Firebase Firestore CRUD application repository. This project is part of my journey to learn and apply CRUD (Create, Read, Update, Delete) operations using Firebase Firestore in a Node.js application. The backend is built with Express.js, and the project demonstrates how to structure a Node.js application with modular routes and functions.
 
@@ -11,9 +11,7 @@ Welcome to my Firebase Firestore CRUD application repository. This project is pa
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -35,26 +33,35 @@ To get started with this project, follow these steps:
    git clone https://github.com/godcandidate/firebase_cloudfuctions.git
    cd firebase_cloudfuctions
     ```
+
 2. **Install dependencies:**
     ```sh
     npm install nodemon cors express firebase 
     ```
+
 3. **Set up Firebase**
+
 - Create a Firebase project in the Firebase Console.
+
 - Set up Firestore in your Firebase project.
+
 - Create your config file with your firestore details
 
 4. **Usage**
+
 To start the server, run:
+
     ```sh
         npm start
     ```
+
 The server will run on http://localhost:8080. You can use tools like Postman or cURL to test the API endpoints.
 
 5. **Project structure**
-.
+```sh
 ├── functions.js        # Contains the functions for CRUD operations
 ├── routes.js           # Defines the API routes
 ├── index.js            # Main entry point of the application
 ├── package.json        # Project metadata and dependencies
 └── serviceAccountKey.json # Firebase service account key (add this file manually)
+```
